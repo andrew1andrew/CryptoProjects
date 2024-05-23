@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import CryptoProjects
+from projects.models import CryptoProjects
 
 
 @admin.register(CryptoProjects)
